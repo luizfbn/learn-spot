@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-    baseURL: '' // URL DA API
+    baseURL: 'http://[MY_IP]:3333' // URL DA API
 })
 
 export default api
